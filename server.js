@@ -30,7 +30,7 @@ client.on("ready", () => {
   console.log(
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
-  let statuses = ["Project By : M0NA"];
+  let statuses = ["chata gaming"];
 
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -42,56 +42,56 @@ client.on("ready", () => {
 });
 /*
 client.on('ready' , () => {
-const join = client.channels.get("792966740119912448")
+const join = client.channels.get("895779160193118258")
 if (join) join.join()
   
 })*/
 
 
-client.on("message", SAEWAN => {
+client.on("message", chata => {
   if (SAEWAN.content.startsWith("reklam")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("** دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
     SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
 ////////
 
-client.on("message", SAEWAN => {
+client.on("message", chata => {
   if (SAEWAN.content.startsWith("ریکلام")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("**دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
     SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
-client.on("message", SAEWAN => {
+client.on("message", chata => {
   if (SAEWAN.content.startsWith("Reklam")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("**دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
     SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
 ////////
 
-client.on("message", SAEWAN => {
+client.on("message", chata => {
   if (SAEWAN.content.startsWith("REKLAM")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("**دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
     SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
 
-client.on("message", SAEWAN => {
+client.on("message", chata => {
   if (SAEWAN.content.startsWith("slaw reklam agornawa")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("**دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
     SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
 
-client.on("message", SAEWAN => {
+client.on("message", chata => {
   if (SAEWAN.content.startsWith("Beza7mat reklam dagornawa?")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("**دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
     SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
@@ -104,7 +104,7 @@ client.on("message", async message => {
     if (message.member.voice.channel) {
       const connection = await message.member.voice.channel.join();
     } else {
-      message.reply("You need to join a voice channel first!");
+      message.reply("!پێویستە سەرەتا پەیوەندی بە کەناڵی دەنگەوە بکەیت");
     }
   }
   if (
@@ -136,18 +136,18 @@ client.on("message", async message => {
   }
 
   var ad_message = message.content
-    .replace("@everyone", "everyone qadaxaya ")
-    .replace("@here", "here qadaxaya");
+    .replace("@everyone", "everyone ❌نابێت دژی یاسایە ")
+    .replace("@here", "here ❌نابێت دژی یاسایە");
 
   client.channels.cache
     .get(config.ad_channel)
     .send(ad_message + "\n\n<@" + user.id + ">");
 
   message.channel.send(
-    "https://discord.gg/gWjzgxhyqy reklamakat kra tosh am servara rekalam bka"
+    "https://discord.gg/X3XNug2aJb دانرا تۆش ڕیکلامەکە بکە"
     
   );
 
-  db.set(user.id, moment().format("x"), "last");
+  db.set(user.id, moment().format("7700"), "last");
 });
 client.login("Desanawa Tokene bot dabne⛔⛔");
