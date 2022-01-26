@@ -51,7 +51,7 @@ if (join) join.join()
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("reklam")) {
     SAEWAN.author.send("** دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
-    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
+    SAEWAN.reply("**❤ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
@@ -60,14 +60,14 @@ client.on("message", SAEWAN => {
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("ریکلام")) {
     SAEWAN.author.send("**دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
-    SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
+    SAEWAN.reply("**❤ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("Reklam")) {
     SAEWAN.author.send("**دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
-    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
+    SAEWAN.reply("**❤ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
@@ -76,7 +76,7 @@ client.on("message", SAEWAN => {
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("REKLAM")) {
     SAEWAN.author.send("**دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
-    SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
+    SAEWAN.reply("**❤ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
@@ -84,7 +84,7 @@ client.on("message", SAEWAN => {
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("slaw reklam agornawa")) {
     SAEWAN.author.send("**دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
-    SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
+    SAEWAN.reply("**❤ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
@@ -92,7 +92,7 @@ client.on("message", SAEWAN => {
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("Beza7mat reklam dagornawa?")) {
     SAEWAN.author.send("**دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
-    SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
+    SAEWAN.reply("**❤ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
 
