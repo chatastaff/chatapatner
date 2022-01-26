@@ -36,7 +36,7 @@ client.on("ready", () => {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(STREAMING, {
       type: "STREAMING",
-      url: "https://www.twitch.tv/faith"
+      url: "https://www.twitch.tv/"
     });
   }, 2000);
 });
@@ -100,7 +100,7 @@ client.on("message", SAEWAN => {
 
 
 client.on("message", async message => {
-  if (message.content === "wara voice") {
+  if (message.content === "chata") {
     if (message.member.voice.channel) {
       const connection = await message.member.voice.channel.join();
     } else {
