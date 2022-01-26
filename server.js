@@ -36,7 +36,7 @@ client.on("ready", () => {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(STREAMING, {
       type: "STREAMING",
-      url: "https://www.twitch.tv/"
+      url: "https://www.twitch.tv/chatagaming1"
     });
   }, 2000);
 });
