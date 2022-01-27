@@ -90,7 +90,7 @@ client.on("message", SAEWAN => {
 
 
 client.on("message", SAEWAN => {
-  if (SAEWAN.content.startsWith("Beza7mat reklam dagornawa?")) {
+  if (SAEWAN.content.startsWith("ڕیکلام")) {
     SAEWAN.author.send("**دلەکەم ڕیکلامەکەت بۆمن بنێرە❤**");
     SAEWAN.reply("**❤ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
